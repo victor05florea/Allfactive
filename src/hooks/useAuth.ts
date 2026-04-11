@@ -1,0 +1,1 @@
+//consumă AuthContext (exportat din context sau separat)

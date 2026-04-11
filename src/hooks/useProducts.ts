@@ -1,0 +1,1 @@
+//wrapper peste useQuery pentru produse

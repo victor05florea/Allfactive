@@ -1,0 +1,1 @@
+//wrapper pentru un singur produs
