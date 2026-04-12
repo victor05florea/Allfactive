@@ -6,3 +6,62 @@ body {
 #root {
   min-height: 100vh;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background-color: rgb(19, 19, 19);
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar a:hover {
+  color: #ed0707;
+  background-color: transparent;
+}
+
+.navbar .btn {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.navbar .btn:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.page-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-layout main {
+  flex: 1;
+}
+
+footer {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: rgb(19, 19, 19);
+  color: #fff;
+}
