@@ -1,8 +1,13 @@
 //landing, câteva produse featured
-import { Button } from "../components/ui/Button";
+import { useEffect, useState } from "react";
+import Spinner from "../components/ui/Spinner";
 
-export const HomePage = () => (
-  <Button variant="secondary" onClick={() => console.log("servus")}>
-    My button
-  </Button>
-);
+export const HomePage = () => {
+  return (
+    <div>
+      <div className="text-center">
+        <h1>Allfactive</h1>
+      </div>
+    </div>
+  );
+};

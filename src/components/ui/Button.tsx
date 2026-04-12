@@ -1,7 +1,5 @@
-import React from "react";
-
-interface Props {
-  children: string;
+interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode;
   onClick: () => void;
   variant?: "primary" | "secondary" | "danger" | "success";
 }
@@ -14,4 +12,4 @@ const Button = ({ children, onClick, variant = "primary" }: Props) => {
   );
 };
 
-export { Button };
+export default Button;
