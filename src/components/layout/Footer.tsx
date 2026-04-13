@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <div>© 2024 Allfactive. Toate drepturile rezervate.</div>
+      <div>© 2026 Allfactive.</div>
     </footer>
   );
 };

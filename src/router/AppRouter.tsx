@@ -12,6 +12,7 @@ export const AppRouter = () => {
       <Route path="/products" element={<ProductsPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="*" element={<NotFoundPage />} />
+      <Route path="/cartPage" element={<h1>Cart Page</h1>} />
     </Routes>
   );
 };
